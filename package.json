@@ -1,6 +1,6 @@
 {
   "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the groestlcoin network and build your own services with it.",
   "version": "0.2.7",
   "repository": "git://github.com/bitpay/insight.git",
   "contributors": [
@@ -26,23 +26,23 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/Groestlcoin/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/Groestlcoin/insight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
-    "bitcore",
+    "groestlcoin",
+    "groestlcore",
     "front-end"
   ],
   "scripts": {
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": "git://github.com/GroestlCoin/insight-api.git"
+    "insight-bitcore-api": "git://github.com/Groestlcoin/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
